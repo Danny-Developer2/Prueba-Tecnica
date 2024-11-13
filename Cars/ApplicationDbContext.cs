@@ -5,7 +5,9 @@ namespace Carros.Models
     public class ApplicationDbContext : DbContext
     {
         public DbSet<Vehicle> Vehicles { get; set; }
-         public DbSet<Image> Images { get; set; }  
+         public DbSet<Image> Images { get; set; } 
+
+          public DbSet<Image> Modelos { get; set; }  
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -29,6 +31,12 @@ namespace Carros.Models
                 .HasOne<Vehicle>() 
                 .WithMany(v => v.Images)  
                 .HasForeignKey(i => i.VehicleId); 
+                
+             modelBuilder.Entity<Modelos>()
+                .HasOne<Vehicle>() 
+                .WithMany(v => v.Modelos) 
+                .HasForeignKey(m => m.VehicleId)
+                .IsRequired(); 
         }
 
         

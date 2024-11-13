@@ -5,17 +5,11 @@
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/bin/Debug/net8.0/Cars.runtimeconfig.json
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/bin/Debug/net8.0/Cars.dll
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/bin/Debug/net8.0/Cars.pdb
-/Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
-/Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/bin/Debug/net8.0/Microsoft.OpenApi.dll
-/Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/obj/Debug/net8.0/Cars.csproj.AssemblyReference.cache
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/obj/Debug/net8.0/Cars.GeneratedMSBuildEditorConfig.editorconfig
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/obj/Debug/net8.0/Cars.AssemblyInfoInputs.cache
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/obj/Debug/net8.0/Cars.AssemblyInfo.cs
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/obj/Debug/net8.0/Cars.csproj.CoreCompileInputs.cache
-/Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/obj/Debug/net8.0/Cars.MvcApplicationPartsAssemblyInfo.cs
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/obj/Debug/net8.0/Cars.MvcApplicationPartsAssemblyInfo.cache
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/obj/Debug/net8.0/staticwebassets.build.json
 /Users/juandanielluevanoruiz/Desktop/prueba_tecnica/Cars/obj/Debug/net8.0/staticwebassets.development.json

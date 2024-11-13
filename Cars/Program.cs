@@ -8,7 +8,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowLocalhost", policy =>
     {
-        policy.WithOrigins("http://localhost:65029")  // Aquí agregas el origen de tu frontend
+        policy.WithOrigins("https://localhost:4500") 
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
@@ -19,21 +19,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(); 
+
 
 var app = builder.Build();
 
-// Si está en desarrollo, habilita Swagger
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-// Habilitar CORS en el middleware
+
 app.UseCors("AllowLocalhost");
 
 app.UseRouting();

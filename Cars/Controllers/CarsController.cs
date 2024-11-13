@@ -79,8 +79,8 @@ namespace Vehicles.Controllers
             }
 
             var vehicles = await _context.Vehicles
-                .Include(v => v.Images) // Incluir las imágenes asociadas a cada vehículo
-                .ToListAsync(); // Obtener todos los vehículos con sus imágenes
+                .Include(v => v.Images) 
+                .ToListAsync(); 
 
             return vehicle;
         }
@@ -171,20 +171,20 @@ public async Task<IActionResult> UpdateImage(Guid vehicleId, Guid imageId, [From
         public async Task<ActionResult<IEnumerable<Vehicle>>> GetAllVehicles()
         {
             var vehicles = await _context.Vehicles
-                .Include(v => v.Images) // Incluir las imágenes asociadas a cada vehículo
-                .ToListAsync(); // Obtener todos los vehículos con sus imágenes
+                .Include(v => v.Images) 
+                .ToListAsync(); 
 
             if (vehicles == null || !vehicles.Any())
             {
-                return NotFound(); // Si no hay vehículos, responde con 404
+                return NotFound(); 
             }
 
-            return Ok(vehicles); // Devuelve la lista de vehículos con un código 200
+            return Ok(vehicles);
         }
         [HttpGet("models")]
         public ActionResult<IEnumerable<string>> GetVehicleModels()
         {
-            // Recuperamos todos los vehículos y seleccionamos solo los modelos
+            
             var models = _context.Vehicles.Select(v => v.Model).Distinct().ToList();
 
             if (models == null || !models.Any())

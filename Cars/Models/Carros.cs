@@ -10,6 +10,8 @@ namespace Carros.Models
 
         public string Doors { get; set; }  = string.Empty;
 
+        public ICollection<Modelos> Modelos { get; set; } = new List<Modelos>();
+
         public ICollection<Image> Images { get; set; } = new List<Image>();
     }
 }
